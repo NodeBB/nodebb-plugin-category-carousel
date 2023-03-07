@@ -1,0 +1,34 @@
+{
+	"hooks": [
+		{
+			"hook": "static:app.load", "method": "init"
+		},
+		{
+			"hook": "filter:config.get", "method": "getConfig"
+		},
+		{
+			"hook": "filter:admin.header.build", "method": "addAdminNavigation"
+		},
+		{
+			"hook": "filter:widgets.getWidgets", "method": "defineWidgets"
+		},
+		{
+			"hook": "filter:widget.render:categoryCarousel", "method": "renderWidget"
+		}
+	],
+	"less": [
+		"static/style.less"
+	],
+	"css": [
+		"static/slick/slick.css",
+		"static/slick/slick-theme.css"
+	],
+	"scripts": [
+		"static/slick/slick.min.js",
+		"static/lib/main.js"
+	],
+	"modules": {
+		"../admin/plugins/categorycarousel.js": "static/lib/admin.js"
+	},
+	"templates": "templates"
+}

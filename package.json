@@ -1,0 +1,34 @@
+{
+  "name": "nodebb-plugin-category-carousel",
+  "version": "1.0.0",
+  "description": "A carousel to show categories as a widget",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NodeBB/nodebb-plugin-category-carousel"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "category",
+    "cards"
+  ],
+  "author": {
+      "name": "Barış Soner Uşaklı",
+      "email": "baris@nodebb.org",
+      "url": "https://github.com/barisusakli"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NodeBB/nodebb-plugin-category-carousel/issues"
+  },
+  "readmeFilename": "README.md",
+  "devDependencies": {
+    "eslint": "8.30.0",
+    "eslint-config-nodebb": "0.2.1",
+    "eslint-plugin-import": "2.26.0"
+  },
+  "nbbpm": {
+    "compatibility": "^2.0.0"
+  }
+}
