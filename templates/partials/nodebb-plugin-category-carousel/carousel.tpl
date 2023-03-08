@@ -11,7 +11,7 @@
 				<div class="category-carousel-img" style="{{{ if ./carouselImg}}}background-image: url({config.relative_path}{./carouselImg}); background-position: center; background-size: cover;{{{ else }}}background-color: {./bgColor};{{{ end }}}"></div>
 
 				<div class="category-carousel-card">
-					<div class="footer">
+					<div class="footer text-center">
 						<h3>{./name}</h3>
 					</div>
 				</div>

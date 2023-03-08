@@ -16,8 +16,8 @@
 			"hook": "filter:widget.render:categoryCarousel", "method": "renderWidget"
 		}
 	],
-	"less": [
-		"static/style.less"
+	"scss": [
+		"static/style.scss"
 	],
 	"css": [
 		"static/slick/slick.css",
