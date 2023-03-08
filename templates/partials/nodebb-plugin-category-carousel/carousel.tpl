@@ -11,8 +11,8 @@
 				<div class="category-carousel-img" style="{{{ if ./carouselImg}}}background-image: url({config.relative_path}{./carouselImg}); background-position: center; background-size: cover;{{{ else }}}background-color: {./bgColor};{{{ end }}}"></div>
 
 				<div class="category-carousel-card">
-					<div class="footer text-center">
-						<h3>{./name}</h3>
+					<div class="d-flex justify-content-center align-items-center footer" style="height:60px;">
+						<h3 class="m-0 py-0 px-2 text-truncate">{./name}</h3>
 					</div>
 				</div>
 			</a>
