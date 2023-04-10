@@ -23,7 +23,7 @@ $(document).ready(function () {
 					slidesToShow: slideCount,
 					slidesToScroll: slideCount,
 					rtl: rtl,
-					variableWidth: true,
+					variableWidth: false,
 					dots: !!config.categoryCarousel.enableCarouselPagination,
 					nextArrow: rtl ? prevArrow : nextArrow,
 					prevArrow: rtl ? nextArrow : prevArrow,
@@ -37,7 +37,7 @@ $(document).ready(function () {
 					}, {
 						breakpoint: 768, // sm/xs
 						settings: {
-							slidesToShow: 2,
+							slidesToShow: 1,
 							slidesToScroll: 1,
 							infinite: false,
 						},
