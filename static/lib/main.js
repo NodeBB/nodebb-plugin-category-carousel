@@ -23,7 +23,7 @@ $(document).ready(function () {
 					slidesToShow: slideCount,
 					slidesToScroll: slideCount,
 					rtl: rtl,
-					variableWidth: false,
+					variableWidth: true,
 					dots: !!config.categoryCarousel.enableCarouselPagination,
 					nextArrow: rtl ? prevArrow : nextArrow,
 					prevArrow: rtl ? nextArrow : prevArrow,
@@ -37,13 +37,13 @@ $(document).ready(function () {
 					}, {
 						breakpoint: 768, // sm/xs
 						settings: {
-							slidesToShow: 1,
+							slidesToShow: 2,
 							slidesToScroll: 1,
 							infinite: false,
 						},
 					}],
 				});
-				categoryCarousel.css({ overflow: 'initial' });
+				categoryCarousel.removeClass('overflow-hidden');
 			} else {
 				categoryCarousel.removeClass('carousel-mode');
 			}
