@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-category-carousel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A carousel to show categories as a widget",
   "main": "library.js",
   "repository": {
@@ -14,9 +14,9 @@
     "cards"
   ],
   "author": {
-      "name": "Barış Soner Uşaklı",
-      "email": "baris@nodebb.org",
-      "url": "https://github.com/barisusakli"
+    "name": "Barış Soner Uşaklı",
+    "email": "baris@nodebb.org",
+    "url": "https://github.com/barisusakli"
   },
   "license": "MIT",
   "bugs": {
