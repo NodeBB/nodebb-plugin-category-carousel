@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-category-carousel",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A carousel to show categories as a widget",
   "main": "library.js",
   "repository": {
