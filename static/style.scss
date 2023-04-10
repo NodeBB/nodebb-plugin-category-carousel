@@ -1,9 +1,7 @@
 .category-carousel {
 	list-style: none;
 	.category-carousel-container {
-		overflow: hidden;
-		border-radius: 5px;
-		margin-bottom: 8px;
+
 		&:hover .category-carousel-img {
 			transform: scale(1.15);
 		}
